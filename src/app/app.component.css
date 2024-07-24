@@ -1,0 +1,53 @@
+
+
+.rain::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  background-image: url('../assets/img/rayo2.png');
+  /* background-image: var(--background-image); */
+  top: -115px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(360deg);
+  animation: lightining 4s linear infinite;
+  background-position-x: center;
+  opacity: 1;
+  /* position: absolute; */
+  /* top: 0; */
+  /* padding-top: 0;*/
+  /* background-image: var(--background-image); */
+}
+
+@keyframes lightining{
+  0%{
+      opacity: 0;
+  }
+  20%{
+      opacity: 0;
+  }
+  20%{
+      opacity: 0;
+      background-color: rgba(240, 255, 255, 0.224);
+  }
+  21%{
+      opacity: 1;
+
+  }
+  25%{
+      opacity: 0;
+  }
+  30%{
+      opacity: 0;
+  }
+  31%{
+      opacity: 1;
+  }
+  35%{
+      opacity: 0;
+  }
+  100%{
+      opacity: 0;
+  }
+}

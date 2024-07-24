@@ -1,0 +1,24 @@
+body{
+  margin: 0;
+  padding: 0;
+  /* background-image: url(background.jpg); */
+  background-color: rgb(37, 37, 37);
+  background-size: cover;
+}
+.rain{
+  height: 100vh;
+  /* background-image: url(rain.png); */
+  animation: rain 0.3s linear infinite;
+}
+@keyframes rain{
+  0%{
+      background-position: 0% 0%;
+  }
+  100%{
+      background-position: 20% 100%;
+  }
+}
+
+
+
+
